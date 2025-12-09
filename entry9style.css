@@ -1,0 +1,480 @@
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #03031c;
+}
+
+h1{
+	font-family: Trattatello;
+	font-size: 130px;
+	text-align: center;
+	letter-spacing: 4px;
+	line-height: 140px;
+	margin-bottom: 50px;
+	color: beige;
+  }
+
+
+  h1:hover{
+  	font-style: bold;
+  	font-style: italic;
+  }
+
+
+  h2{
+	font-family: Trattatello;
+	font-size: 80px;
+	text-align: center;
+	letter-spacing: 4px;
+	margin-bottom: 50px;
+    margin-top: 50px;
+	color: beige;
+  }
+
+  p{
+  	font-family: sans-serif;
+  	font-size: 24px;
+  	color: beige;
+	text-align: center;
+  }
+
+p:hover{
+	font-style: italic;
+}
+
+.container{
+	background-color:#03031c;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 40px;
+}
+
+
+.recipeprocess{
+	width: 400px; height: 1900px;
+	padding: 35px;
+	align-items: center;
+
+}
+
+
+
+.images{
+	width: 600px; 
+	height: 1900px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+#image1{
+	width: 300px;
+	margin-top: 30px;
+    transform: rotate(-7deg);
+    opacity: 75%;
+    position: absolute;
+    top: 1400px;
+    left: 500px;
+
+}
+
+#image1:hover{
+    opacity: 100%;
+    width: 370px;
+}
+
+#image2{
+	width: 300px;
+	margin-top: 30px;
+    position: absolute;
+    top: 1550px;
+    left: 60px;
+    opacity: 40%;
+}
+
+#image2:hover{
+    width: 400px;
+    opacity: 100%;
+}
+
+#image3{
+	width: 260px;
+	margin-top: 30px;
+    transform: rotate(6deg);
+    position: absolute;
+    top: 1800px;
+    left: 70px;
+
+}
+
+#image3:hover{
+    width: 450px;
+}
+
+#image4{
+	width: 250px;
+	margin-top: 30px;
+    transform: rotate(-2deg);
+    position: absolute;
+    top: 2000px;
+    left: 100px;
+    opacity: 50%;
+
+}
+
+#image4:hover{
+    opacity: 100%;
+    width: 300px;
+}
+
+
+#image5{
+	width: 250px;
+	margin-top: 30px;
+    position: absolute;
+    top: 2400px;
+    left: 70px;
+    opacity: 60%;
+}
+
+#image5:hover{
+    opacity: 100%;
+}
+
+#image6{
+	width: 400px;
+	margin-top: 30px;
+    opacity: 70%;
+
+}
+
+#image6:hover{
+    opacity: 100%;
+}
+
+#image7{
+	width: 300px;
+	margin-top: 30px;
+    position: sticky;
+	top: 60px;
+	left: 2300px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+
+}
+
+#image8{
+	width: 500px;
+	margin-top: 30px;
+    transform: rotate(-5deg);
+    opacity: 70%;
+    position: absolute;
+    top: 800px;
+    left: 1000px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+
+}
+
+#image8:hover{
+    opacity: 100%;
+}
+
+#image9{
+	width: 350px;
+	margin-top: 30px;
+    opacity: 50%;
+    transform: rotate(6deg);
+    position: absolute;
+    left: 1000px;
+    top: 1400px;
+
+}
+
+#image9:hover{
+    opacity: 100%;
+    width: 450px;
+
+}
+
+#image10{
+	width: 300px;
+	margin-top: 30px;
+    transform: rotate(5deg);
+    position: absolute;
+    top: 1800px;
+    left: 600px;
+
+}
+
+
+#image11{
+	width: 320px;
+	margin-top: 30px;
+    opacity: 60%;
+    position: absolute;
+     top: 2300px;
+    left: 1070px;
+
+}
+
+#image11:hover{
+    width: 410px;
+    opacity: 100%;
+}
+
+
+#image12{
+	width: 150px;
+	margin-top: 30px;
+    margin-bottom: 70px;
+    transform: rotate(3deg);
+    opacity: 60%;
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+
+}
+
+#image12:hover{
+    opacity: 100%;
+    width: 300px;
+}
+
+
+#image13{
+    width: 500px;
+}
+
+#image13:hover{
+    width: 700px;
+}
+
+#image14{
+    width: 600px;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+
+
+ #recipebox{
+  width: 100px;
+  height: 260px;
+	text-align: center;
+	margin-right: 0;
+	margin-left: 0;
+	position: absolute;
+	top: 900px;
+	left: 60px;
+	overflow: hidden;
+	background-color: #d1a099;
+	font-family: sans-serif;
+	color: white;
+	padding: 12px;
+	border: 2px solid white;
+	margin-top: 10px;
+	opacity: 60%;
+	transform: rotate(-3deg);
+  }
+
+  #recipebox:hover{
+    opacity: 100%;
+  }
+
+  #ingredients{
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+/*this is for phones*/
+@media (max-width: 1170px)  {
+  body {
+    font-size: 12px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+  h1 { 
+    font-size: 40px
+    margin-bottom: 10px;
+  } 
+  
+
+  .images {
+    width: 200px; 
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+  }
+
+  .recipeprocess {
+    width: 200px; 
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+  }
+
+  #recipebox{
+    height: 180px;
+  }
+
+
+  #image1{
+	width: 230px;
+	margin-top: 10px;
+     opacity: 100%;
+     position: absolute;
+    top: 1500px;
+    left: 50px;
+    transform: rotate(-1deg);
+
+}
+
+  #image2{
+	width: 230px;
+	margin-top: 10px;
+     opacity: 100%;
+    top: 1900px;
+    left: 60px;
+
+}
+
+  #image3{
+	width: 300px;
+	margin-top: 10px;
+     opacity: 100%;
+     position: absolute;
+     left: 60px;
+     top: 1700px;
+     transform: rotate(-2deg);
+
+
+}
+
+
+  #image4{
+	width: 100px;
+	margin-top: 10px;
+     opacity: 100%;
+    top: 1550px;
+    left: 350px;
+    transform: rotate(5deg);
+
+}
+
+  #image5{
+	width: 100px;
+	margin-top: 10px;
+     opacity: 100%;
+    top: 500px;
+    left: 20px;
+    opacity: 0%;
+
+}
+
+
+  #image6{
+	width: 150px;
+	margin-top: 10px;
+     opacity: 100%;
+
+}
+
+  #image7{
+	width: 150px;
+	margin-top: 10px;
+     opacity: 100%;
+
+}
+
+  #image8{
+	width: 150px;
+	margin-top: 10px;
+     opacity: 100%;
+     position: absolute;
+     top: 1700px;
+    left: 400px;
+
+}
+
+  #image9{
+	width: 280px;
+	margin-top: 10px;
+    opacity: 100%;
+    left: 100px;
+    top: 4000px;
+    transform: rotate(-3deg);
+
+}
+
+  #image10{
+	width: 280px;
+	margin-top: 10px;
+    opacity: 100%;
+    top: 3500px;
+    left: 120px;
+
+}
+
+  #image11{
+	width: 180px;
+	margin-top: 10px;
+     opacity: 100%;
+    top: 2000px;
+    left: 310px;
+
+}
+
+  #image12{
+	width: 150px;
+	margin-top: 10px;
+     opacity: 100%;
+    position: absolute;
+    top: 1450px;
+    left: 330px;
+
+}
+
+
+#image13{
+    width: 300px;
+     opacity: 100%;
+}
+
+
+ #recipebox{
+  width: 60px;
+  height: 170px;
+  opacity: 100%;
+  top: 900px;
+  left: 2px;
+  opacity: 60%;
+
+  }
+
+  #ingredients{
+    font-size: 9px;
+  }
+
+  #image14{
+    width: 450px;
+  }
+
+
+}
