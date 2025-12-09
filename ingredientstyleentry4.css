@@ -1,0 +1,21 @@
+body{
+	background-color: beige;
+}
+
+h1{
+	font-family: Trattatello;
+	font-size: 70px;
+	color:#700;
+}
+
+p{
+	font-family: serif;
+	font-size: 30px;
+	color:#700;
+}
+
+a{
+	font-family: Trattatello;
+	font-size: 30px;
+	color:#700;	
+}
