@@ -1,0 +1,200 @@
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #03031c;
+}
+
+
+h1{
+	font-family: Trattatello;
+	font-size: 130px;
+	text-align: center;
+	letter-spacing: 4px;
+	line-height: 140px;
+	margin-bottom: 50px;
+	color: #5a8a4c;
+  }
+
+  h1:hover{
+  	font-style: bold;
+  	font-style: italic;
+  }
+
+
+.container{
+	background-color:#03031c;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 40px;
+
+}
+
+
+#paragraphs{
+	background-color: #03031c;
+	width: 400px; height: 1600px;
+	padding: 35px;
+
+
+}
+
+
+#images{
+	background-color: #5a8a4c;
+	width: 600px; 
+	height: 2000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+
+}
+
+
+.box{
+	width:100ch;
+	padding:2px;
+}
+
+.title{
+	width:100ch;
+	padding:20px;
+}
+
+p{
+	color: beige;
+	font-family: serif;
+	font-size: 24px;
+
+}
+
+p:hover{
+	font-style: italic;
+}
+
+#image1{
+	width: 300px;
+	text-align: center;
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
+	position: fixed;
+	top: 280px;
+	left: 100px;
+	overflow: hidden;
+	transform: rotate(40deg);
+	opacity: 100%;
+}
+
+
+#image2{
+	width: 300px;
+	text-align: center;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+#image3{
+	width: 250px;
+	text-align: center;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#image4{
+	width: 200px;
+	text-align: center;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+a{
+	color: #4684db;
+	font-family: serif;
+	font-size: 30px;
+}
+
+#image5{
+	width: 300px;
+	text-align: center;
+	margin: auto;	
+}
+
+
+
+#image6{
+	width: 300px;
+	text-align: center;
+	margin: auto;
+}
+
+
+#image7{
+	width: 300px;
+	text-align: center;
+	margin: auto;
+}
+
+#image8{
+	width: 300px;
+	text-align: center;
+	margin: auto;
+}
+
+
+#image7:hover{
+	width: 600px;
+}
+
+#image8:hover{
+	width: 700px;
+}
+
+
+#julia1{
+	width: 300px;
+	position: sticky;
+	left: 1200px;
+	top: 200px;
+}
+
+#julia2{
+	width: 440px;
+	position: absolute;
+	left: 1000px;
+	top: 2500px;
+	transform: rotate(3deg);
+
+}
+
+#julia3{
+	width: 400px;
+	position: absolute;
+	left: 80px;
+	top: 2200px;
+	transform: rotate(90deg);
+}
+
+
+#julia4{
+	width: 340px;
+	position: absolute;
+	left: 1000px;
+	top: 2800px;
+}
+
+
+#julia5{
+	width: 220px;
+	position: absolute;
+	left: 1200px;
+	top: 700px;
+	transform: rotate(5deg);
+}
+
+
+
+
