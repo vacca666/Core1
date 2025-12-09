@@ -1,0 +1,250 @@
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: beige;
+}
+
+
+h1{
+	font-family: Trattatello;
+	font-size: 130px;
+	text-align: center;
+	letter-spacing: 4px;
+	line-height: 140px;
+	margin-bottom: 50px;
+	color: #03031c;
+  }
+
+  h1:hover{
+  	font-style: bold;
+  	font-style: italic;
+  }
+
+
+  p{
+  	font-family: sans-serif;
+  	font-size: 22px;
+  	color: #03031c;
+  }
+
+p:hover{
+	font-style: italic;
+}
+
+.container{
+	background-color:beige;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 40px;
+
+}
+
+
+  #recipebox{
+
+  width: 180px;
+  height: 250px;
+	text-align: center;
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
+	position: fixed;
+	top: 300px;
+	left: 100px;
+	overflow: hidden;
+	opacity: 70%;
+	background-color: #03031c;
+	font-family: sans-serif;
+	color: white;
+	padding: 12px;
+	margin-top: 10px;
+  }
+
+
+
+.recipeprocess{
+	background-color: beige;
+	width: 400px; height: 1700px;
+	padding: 35px;
+	align-items: center;
+
+}
+
+
+.images{
+	background-color: beige;
+	width: 600px; 
+	height: 1700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+#image1{
+	width: 250px;
+	margin-top: 40px;
+	align-items: center;
+
+}
+
+#image2{
+	width: 250px;
+}
+
+#image3{
+	width: 400px;
+	margin-top: 40px;
+}
+
+#image4{
+	width: 350px;
+	margin-top: 40px;
+	position: absolute;
+	top: 1600px;
+}
+
+#image5{
+	width: 350px;
+	position: absolute;
+	left: 1000px;
+	top: 2000px;
+}
+
+#image6{
+	width: 350px;
+	position: absolute;
+	left: 200px;
+	top: 2400px;
+}
+
+
+
+#caption1{
+	font-family: Trattatello;
+}
+
+
+#caption2{
+	font-family: Trattatello;
+}
+
+
+#lastprocess{
+	width: 300px;
+}
+
+
+
+#image7{
+	width: 300px;
+	position: absolute;
+	top: 300px;
+	left: 1240px;
+	overflow: hidden;
+}
+
+
+#image8{
+	width: 500px;
+}
+
+#image8:hover{
+	width: 800px;
+}
+
+/*this is for phones*/
+@media (max-width: 600px)  {
+  body {
+    font-size: 12px;
+  }
+
+  p{
+    font-size: 14px;
+    margin-top: -20px;
+  }
+  .container {
+    width: 95%;
+    padding: 10px;
+	height: 3000px;
+  }
+
+  h1 { 
+    font-size: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 0px;
+    line-height: -20px;
+
+    
+  }
+
+  .images {
+    width: 200px; 
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+  }
+
+  .recipeprocess {
+    width: 200px; 
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+  }
+
+  #image1{
+	width: 150px;
+  }
+
+  #image2{
+	width: 150px;
+  }
+
+  #image3{
+	width: 200px;
+  }
+
+  #image4{
+	width: 170px;
+	top: 2950px;
+	left: 340px;
+  }
+
+  #image5{
+	width: 220px;
+	left: 100px;
+	top: 2749px;
+  }
+
+  #image6{
+	width: 270px;
+	left: 60px;
+	top: 3120px;
+  }
+
+  #image7{
+	width: 200px;
+	left: 150px;
+	top: 1540px;
+  }
+
+  #image8{
+	width: 300px;
+  }
+
+  #recipebox{
+	opacity: 0%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
